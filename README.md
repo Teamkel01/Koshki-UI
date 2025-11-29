@@ -2063,3 +2063,8 @@ local textbox1 = GUI:TextBox({
 	end,
 }, section)
 ```
+
+## Notification
+```lua
+local Notification = GUI:Notification({ Title = "Title", Description = "Hello", Time = "3" })
+```
